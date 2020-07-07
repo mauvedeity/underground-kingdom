@@ -10,5 +10,17 @@
 Underground Kingdom
 
 ::Start
-This is the start
 
+<h2>Introduction to "Underground Kingdom"</h2>
+
+This is an adventure book by Edward Packard, published by Bantam Books in the "Choose Your Own Adventure" series. I think it's number 18. I found this content on a website claiming that the content is in the public domain, so on that basis I've taken it and converted it into this playable HTML game. I found it as a decent PDF, so I've just done some text recovery and had at it.
+
+I've changed a few things from the original, just to make it a little more relevant to modern players. That usually means that I've converted Imperial to metric measurements, fixed some writing I didn't like, and made a few other changes to make it make more sense as a playable game, not a book.
+
+All the work of converting a PDF into this playable game is mine. I didn't write the story, but I've brought it to you like this. I hope you enjoy it.
+
+Would you like to [[View the introduction->intro0000]] or [[Play the game->warn0000]]?
+
+::intro0000
+
+::warn0000
