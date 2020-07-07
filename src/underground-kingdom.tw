@@ -34,17 +34,19 @@ Professor Bruckner is a rather boring writer, and I wouldn't suggest that you bo
 
 Good luck!
 
-Would you like to [[read Professor Bruckner's theory->theory0]] or [[jump straight in->page0001]]?
+Would you like to [[read Professor Bruckner's theory->theory0]] or [[skip it->page0001]]?
 
 ::theory0
 !!Professor Bruckner's Theory
-The discovery of the Bottomless Crevasse in Greenland by Dr. Nera Vivaldi supports my theory that the Earth is not solid, as has been thought, but that it is hollow. The Bottomless Crevasse is probably the sole route from the Earth's surface to a vast "Underground Kingdom." The only other possible link would be an underground river, flowing in alternating directions in response to the tides, but this seems unlikely.
+The discovery of the Bottomless Crevasse in Greenland by Dr. Nera Vivaldi supports my theory that the Earth is not solid, as has been thought, but that it is hollow. The Bottomless Crevasse is probably the sole route from the Earth's surface to a vast "Underground Kingdom". The only other possible link would be an underground river, flowing in alternating directions in response to the tides, but this seems unlikely.
 
 How, you may ask, was the Earth hollowed out? My studies show that more than a billion years ago a tiny black hole collided with our planet and lodged in its centre, pulling the whole molten core into an incredibly massive sphere only a few hundred meters across. If you were to stand on the inner surface of the Earth, like a fly on the inner shell of an enormous pumpkin, you would see the black hole directly overhead, like a Black Sun.
 
 The gravity of the Earth's thick shell would hold you to the inner shell of the Earth, though you would weigh much less than you would on the outer surface because the mass of the Black Sun would tend to pull you toward it. If there were a very tall mountain in the Underground Kingdom and you were to climb to the top of it, you might be pulled up into the Black Sun because gravity gets stronger as you approach a massive object.
 
 In all other respects the Black Sun would not be dangerous to any creatures in the Underground Kingdom. On the contrary, the Black Sun would be necessary to life in the underworld, but in the opposite way that the sun is necessary to life on the Earth's surface. Our sun gives us heat and keeps us from freezing. The Black Sun absorbs heat. If there is an Underground Kingdom, it is the Black Sun that keeps its inhabitants from being baked to death by the heat within the Earth!
+
+[[Begin your adventure->page0001]].
 
 ::page0001
 You are standing on the Toan Glacier in northern Greenland, staring down into the black void of the crevasse. You shiver as you wonder whether you were lucky or unlucky to be invited on this expedition.
@@ -61,4 +63,32 @@ Sneed shakes his head. "None."
 
 For a minute no one speaks. Like you, the others must feel excited to have reached their goal but also a little sad. It was just a year ago that your old friend, Dr. Nera Vivaldi, radioed from this spot that she had reached the Bottomless Crevasse. A few moments later, her radio went dead. She was never seen again.
 
-[[Continue->page0002]].
+Now you stand at the edge, lost in thought. How could the crevasse have no bottom? Could it really lead to an underground kingdom? What happened to Dr. Vivaldi?
+
+But your thoughts are shattered. You didn't seem to slip, yet suddenly you are falling into the crevasse! A ledge is coming up fast beneath you. You could land on it, but you're falling so fast you're sure to be badly injured. You might only be saving yourself for a slow, agonising death.
+
+These thoughts race through your head in a split second.
+
+Do you [[try to land on the ledge->page0005]] or [[avoid it->page0003]]?
+
+::page0003
+Your consciousness slips away as you fall faster down, down, down.
+
+The next thing you know, you're floating in air. In the soft, reddish light you can see that you are in a cavern, drifting toward the ceiling—or is it the floor? In a flash you realise what has happened—you've fallen to a point where gravity above you is almost equal to gravity beneath you!
+
+You brush against a firm surface—a wall that feels like clay. You cling to it for a moment. Then you're floating again, drifting slowly down. You begin to lose your fear as you realise that gravity here is so weak that you can fall mile after mile without being hurt After a while you begin to relax and enjoy drifting through a fantastic twilight world. You only wish it wasn't so hot! Closing your eyes, you try to pretend that you are safely home in bed.
+
+[[Wait and see what happens->page0006]].
+
+::page0005
+Your whole body is racked with pain as you crash onto the ledge. You're shaken and bruised but still alive! A snowbank cushioned your fall.
+
+"HELP!" you cry.
+
+"Hold on!" Larsen yells. "It's going to be tricky, but we're rigging our ropes. We'll get you up."
+
+You feel a flash of joy; then you remember something that chills you to the bone. You were very careful not to fall in. You're quite sure you didn't slip; you were pulled as if by an unknown force within the Bottomless Crevasse.
+
+Should you warn your friends about the strange force? If you do, they may be afraid to get close enough to rescue you.
+
+Do you [[warn Larsen and Sneed->page0013]] or do you [[keep calling for help->page0009]].
