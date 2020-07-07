@@ -2,25 +2,63 @@
 {
     "ifid": "21410192-6F95-4CFA-82AE-023B8A23B593",
     "format": "SugarCube",
-    "format-version": "2.30.0",
-    "zoom": 1
+    "format-version": "2.30.0"
 }
 
 ::StoryTitle
 Underground Kingdom
 
 ::Start
-
-<h2>Introduction to "Underground Kingdom"</h2>
-
+!!Introduction to "Underground Kingdom"
 This is an adventure book by Edward Packard, published by Bantam Books in the "Choose Your Own Adventure" series. I think it's number 18. I found this content on a website claiming that the content is in the public domain, so on that basis I've taken it and converted it into this playable HTML game. I found it as a decent PDF, so I've just done some text recovery and had at it.
 
 I've changed a few things from the original, just to make it a little more relevant to modern players. That usually means that I've converted Imperial to metric measurements, fixed some writing I didn't like, and made a few other changes to make it make more sense as a playable game, not a book.
 
 All the work of converting a PDF into this playable game is mine. I didn't write the story, but I've brought it to you like this. I hope you enjoy it.
 
-Would you like to [[View the introduction->intro0000]] or [[Play the game->warn0000]]?
+Would you like to [[view the introduction->intro0000]] or [[play the game->warn0000]]?
 
 ::intro0000
+!!WARNING!!!!
+Do not read this book straight through from beginning to end! These pages contain many different adventures you can have as you try to reach the Underground Kingdom. From time to time as you read along, you will be asked to make a choice. Your choice may lead to success or to disaster! The adventures you have will be the result of the decisions you make. After you make your choice, follow the instructions to see what happens to you next.
+
+[[Play the game->warn0000]]
 
 ::warn0000
+!!SPECIAL WARNING!!!!
+The Underground Kingdom is not easy to reach. Many readers never get there. Others never return.
+
+Before starting out on your journey, you may want to read Professor Bruckner's theory, which is set forth on the pages that follow.
+
+Professor Bruckner is a rather boring writer, and I wouldn't suggest that you bother to read his theory, except that, if you ever get to the Underground Kingdom, it might save your life.
+
+Good luck!
+
+Would you like to [[read Professor Bruckner's theory->theory0]] or [[jump straight in->page0001]]?
+
+::theory0
+!!Professor Bruckner's Theory
+The discovery of the Bottomless Crevasse in Greenland by Dr. Nera Vivaldi supports my theory that the Earth is not solid, as has been thought, but that it is hollow. The Bottomless Crevasse is probably the sole route from the Earth's surface to a vast "Underground Kingdom." The only other possible link would be an underground river, flowing in alternating directions in response to the tides, but this seems unlikely.
+
+How, you may ask, was the Earth hollowed out? My studies show that more than a billion years ago a tiny black hole collided with our planet and lodged in its center, pulling the whole molten core into an incredibly massive sphere only a few hundred meters across. If you were to stand on the inner surface of the Earth, like a fly on the inner shell of an enormous pumpkin, you would see the black hole directly overhead, like a Black Sun.
+
+The gravity of the Earth's thick shell would hold you to the inner shell of the Earth, though you would weigh much less than you would on the outer surface because the mass of the Black Sun would tend to pull you toward it. If there were a very tall mountain in the Underground Kingdom and you were to climb to the top of it, you might be pulled up into the Black Sun because gravity gets stronger as you approach a massive object.
+
+In all other respects the Black Sun would not be dangerous to any creatures in the Underground Kingdom. On the contrary, the Black Sun would be necessary to life in the underworld, but in the opposite way that the sun is necessary to life on the Earth's surface. Our sun gives us heat and keeps us from freezing. The Black Sun absorbs heat. If there is an Underground Kingdom, it is the Black Sun that keeps its inhabitants from being baked to death by the heat within the Earth!
+
+::page0001
+You are standing on the Toan Glacier in northern Greenland, staring down into the black void of the crevasse. You shiver as you wonder whether you were lucky or unlucky to be invited on this expedition.
+
+Standing next to you are Gunnar Larsen of the National Research Institute and Dr. James Sneed, a geologist. A small black box containing a signal transmitter is suspended over the crevasse by two long poles. The transmitter is wired to a console a few meters away in the ice. Dr. Sneed turns a dial as he monitors the display screen.
+
+"Well?" Larsen's voice is impatient.
+
+Sneed looks up, a broad smile on his face. "This is it, friends—the Bottomless Crevasse."
+
+"Any radar return?" Larsen asks.
+
+Sneed shakes his head. "None."
+
+For a minute no one speaks. Like you, the others must feel excited to have reached their goal but also a little sad. It was just a year ago that your old friend, Dr. Nera Vivaldi, radioed from this spot that she had reached the Bottomless Crevasse. A few moments later, her radio went dead. She was never seen again.
+
+[[Continue->page0002]].
