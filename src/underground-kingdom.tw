@@ -8,6 +8,12 @@
 ::StoryTitle
 Underground Kingdom
 
+::StoryInit
+
+::StoryCaption
+''Turn: ''<<print turns()>><br>
+''Passage: ''<<print passage()>><br>
+
 ::Start
 !!Introduction to "Underground Kingdom"
 This is an adventure book by Edward Packard, published by Bantam Books in the "Choose Your Own Adventure" series. I think it's number 18. I found this content on a website claiming that the content is in the public domain, so on that basis I've taken it and converted it into this playable HTML game. I found it as a decent PDF, so I've just done some text recovery and had at it.
@@ -92,3 +98,4 @@ You feel a flash of joy; then you remember something that chills you to the bone
 Should you warn your friends about the strange force? If you do, they may be afraid to get close enough to rescue you.
 
 Do you [[warn Larsen and Sneed->page0013]] or do you [[keep calling for help->page0009]].
+
