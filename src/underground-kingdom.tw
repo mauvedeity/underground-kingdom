@@ -129,3 +129,143 @@ Soon you stop rising and start falling. Then you rise a shorter distance, stop, 
 ''The End''
 
 <<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
+
+::page0009
+"Hurry!" you yell.
+
+A moment later you see Dr. Sneed's reassuring face on one side of the opening above you. Larsen peers over the other side. "Don't worry," he calls.
+
+"Hey, what's..." Dr. Sneed's voice is cut off as he slides over the icy lip of the crevasse. You watch with horror as his body hurtles by, down into the abyss!
+
+You yell at Larsen to get back from the edge. But a blur whirls by, and you feel the rush of air as his body plummets after Sneed's.
+
+They're both gone, and now you are alone, trapped on a narrow icy ledge. If only you had
+warned them, you would have saved them and probably yourself too.
+
+Now your chances look slim. A search helicopter might fly over. But will it land? Will anyone ever find you down here? Will you even survive the Arctic night?
+
+[[Now what->page0012]]?
+
+::page0010
+You stand there and watch as the strange creature walks slowly toward you. Then you see the large, blue-white pieces of broken shell. This angel bird is only a fledgling, just hatched!
+
+Losing your fear, you walk up and stroke the creature gently. It cocks its head to the side and touches you with one of its wings. At that moment it seems almost human.
+
+But suddenly you hear a loud whirring sound. Hovering above you is another angel bird, a much larger one. It must be the mother of the fledgling. She swoops toward you.
+
+Do you [[run->page0008]], [[grab the fledgling and use it as a shield->page0014]] or [[dive onto the ground and cover your face with your arms->page0011]]?
+
+::page0011
+You dive to the ground and shield your face with your arms, hoping the angel bird will leave you unharmed.
+
+Nothing happens; the angel bird must have taken her young one away. What's more, you begin to have the feeling that you are completely safe. Slowly you get to your feet. Standing nearby are three more of the large creatures. One of them effortlessly leaves the ground, glides through the air, and lands beside you. You have a strong urge to climb on its back.
+
+Why is it you feel so safe? The angel birds begin to make musical sounds, more beautiful than anything you've ever heard. Is it this music that causes your good feelings, or something more? These creatures seem to communicate not in words, or even ideas, but in feelings.
+
+Without thinking more about it, you leap up, and because there's very little gravity, you almost float onto the creature's feathery back. You nestle in. It feels like a bed of goose down, soft and silky.
+
+[[Look around you->page0016]].
+
+::page0012
+You look along the ledge. It curves up toward the surface, but it also becomes narrower. You try to gauge how close to the surface you could get without losing your footing. By cutting a couple of handholds in the ice with your pocket knife, you could make it to the top, if you don't lose your grip.
+
+Do you [[attempt the climb->page0018]] or [[wait for rescue->page0020]]?
+
+::page0013
+"Get back from the edge!" you yell. "I didn't fall, I was pulled in!"
+
+For a few moments you hear nothing; then Sneed yells, "Thanks for warning us. There may be some force here we don't understand. But don't worry, we're rigging a brace so we can pull you up without getting too close." 
+
+A few minutes later you see a nylon climbing rope dangling in front of you. You pull in enough to tie around your waist and under your arms. Taking a firm grip, you call up to the top, "I'm ready—haul away!"
+
+Your heart skips a beat as you're yanked off the ledge. You dangle for a moment; then, slowly, meter by meter, your friends pull you up over the edge. You scramble across the ice into their arms.
+
+"Thank goodness we got you!" says Larsen.
+
+"The Bottomless Crevasse is a killer. I think we'd better quit now."
+
+"I agree. I've had enough," Sneed says.
+
+After what you've been through, you're not about to argue with them. The three of you pack up and begin the long trek back across the glacier. You're happy to be alive, but you know that you'll always regret that you never reached the Underground Kingdom.
+
+''The End''
+<<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
+
+::page0014
+
+You lunge for the baby bird, hoping that you can use it as a shield.
+
+Even as you move, you feel a rush of wind as the mother dives to protect her baby. You realise
+that you've just made the stupidest decision of your life.
+
+Strangely, the mother bird did not harm you. Instead, you feel that you have been put into a trance. Stranger still, you sense that something has rewound time itself, and you are being given another chance!
+
+[[Look around you->page0010]].
+
+::page0015
+You run from the angel bird—up a hill that gets steeper and steeper. In the light gravity of the underworld you can run faster than a deer, even up this mountain. Ten, fifteen, twenty meters at a bound! You feel even lighter than you did before. You try to leap a meter in the air, but you find yourself floating. There is no way you can get down. You are entombed between the ground above and the ground below.
+
+You close your eyes. Then, instead of feeling warm, you feel cold; instead of feeling light, you feel heavy. Instead of floating, you're lying on a hard, cold surface. Opening your eyes, you see ice walls rising above you.
+
+''Now''' you understand. When you fell into the crevasse, you landed on this ledge, about teh meters below the surface. You must have hit your head on the ice. What a strange dream you've had! It seemed so real—as if the angel bird put the dream in your head! But there are other things to think of right now.
+
+"HELP!" you shout.
+
+No one answers. Larsen and Sneed have probably given you up for lost.
+
+[[Look around you->page0012]].
+
+::page0016
+The angel bird glides through the canyons and corridors beneath the earth. It increases its speed, and you hold tight as it swoops through long, curving passageways. It's the most exciting ride of your life, and would certainly be the scariest if you didn't feel that you've never been safer.
+
+Then, ahead of you, is a tunnel that flares out into a broad new world. An endless landscape stretches before you. It is bathed in soft, reddish light, as if the sun had just set everywhere around you!
+
+A great river forms a curving line that divides the land. Trees line its banks. Farther back from the river are mountains, some of them lavender or blue and others that flicker like glowing embers. Strangely there is no horizon; instead the landscape fades into dusky reds and browns that curve over your head, forming a sky that is almost the same colour as the ground. Directly above you is something that looks like the sun, but it is absolutely black!
+
+So this is the Underground Kingdom—strange, vast, and very beautiful. What people or creatures live here? What mysteries does it hold? But you are swept from your daydreaming by the realisation that your life here could be in danger.
+
+Do you [[set out to explore the Underground Kingdom->page0019]] or do you [[decide to concentrate on getting back home safely->page0022]]?
+
+::page0017
+
+::page0018
+You inch your way along the edge, keeping your body flat against the wall of the crevasse. You should be able to make it, as long as you don't panic. You try not to look down.
+
+After almost an hour of slow progress, you're able to raise a hand over the rim. But you still
+can't pull yourself up.
+
+You hack away at the ice, gouging out another handhold, then another foothold. It seems like hours before you can take even one step higher. Then, with one great effort, you heave yourself over the edge, then twist and roll away from the deadly opening.
+
+Stiff and shaky, you manage to stand and stare at the bleak world around you. The sun has set behind the western mountains, and you begin to shiver in the chill wind. You're thankful that in this part of Greenland it never grows dark in July. But it does grow cold—well below freezing—and you're too exhausted to run and jump to warm yourself.
+
+[[Wonder what to do next->page0021]].
+
+::page00019
+You know how you feel: the risks don't matter. You want to explore the Underground Kingdom!
+
+The angel bird seems to understand. Steeply banking, it swoops down along the great river and glides gently onto a mossy plain. Nearby is a grove of tall trees. Short stumpy branches with clusters of multicoloured leaves thrust out from their trunks. They look almost like hands  holding bunches of flowers.
+
+You slide to the ground, and at once the angel bird rises in the air. As it glides up into the dark red sky, you feel a wave of happiness. You follow its path with your eyes long after it has disappeared. Then, turning to survey the strange landscape, you wonder where you will go. What dangers await you?
+
+[[Continue exploring->page0048]].
+
+::page20
+You decide not to risk the treacherous climb to the surface. Surely help is on the way. You huddle on the icy ledge, stamping your feet and clapping your hands, trying to keep warm. You feel your body temperature dropping. You've got to stay awake until a search party arrives.
+
+The hours pass slowly. The sun dips below the horizon, but there is still light in the sky. Straining, you think you hear something... Pocka pocka pocka pocka pocka... overhead. A helicopter is hovering over the crevasse! For a moment you're blinded by a searchlight. The helicopter drops to just a few yards above you. The crew lowers a harness. Eagerly you grab it and buckle it around you.
+
+"HOLD ON. WE'RE PULLING YOU UP." they announce over the PA. You're suddenly yanked into the air. Moments later a pair of hands pulls you through the hatch. The pilot pours you a cup of hot chocolate from his Thermos.
+
+"Thanks for staying alive till we got here," he says with a grin.
+
+You soon feel life seeping back into your body. "Thanks for pulling me out!"
+
+"This is the one place in the world everyone should stay away from," the pilot says.
+
+"Nothing could get me back here," you say.
+
+''The End''
+<<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
+
+
+
