@@ -24,6 +24,8 @@ All the work of converting a PDF into this playable game is mine. I didn't write
 
 Would you like to [[view the introduction->intro0000]] or [[play the game->warn0000]]?
 
+[[Debug->page0008]].
+
 ::intro0000
 !!WARNING!!!!
 Do not read this book straight through from beginning to end! These pages contain many different adventures you can have as you try to reach the Underground Kingdom. From time to time as you read along, you will be asked to make a choice. Your choice may lead to success or to disaster! The adventures you have will be the result of the decisions you make. After you make your choice, follow the instructions to see what happens to you next.
@@ -82,7 +84,7 @@ Your consciousness slips away as you fall faster down, down, down.
 
 The next thing you know, you're floating in air. In the soft, reddish light you can see that you are in a cavern, drifting toward the ceiling—or is it the floor? In a flash you realise what has happened—you've fallen to a point where gravity above you is almost equal to gravity beneath you!
 
-You brush against a firm surface—a wall that feels like clay. You cling to it for a moment. Then you're floating again, drifting slowly down. You begin to lose your fear as you realise that gravity here is so weak that you can fall mile after mile without being hurt After a while you begin to relax and enjoy drifting through a fantastic twilight world. You only wish it wasn't so hot! Closing your eyes, you try to pretend that you are safely home in bed.
+You brush against a firm surface—a wall that feels like clay. You cling to it for a moment. Then you're floating again, drifting slowly down. You begin to lose your fear as you realise that gravity here is so weak that you can fall any distance without being hurt. After a while you begin to relax and enjoy drifting through a fantastic twilight world. You only wish it wasn't so hot! Closing your eyes, you try to pretend that you are safely home in bed.
 
 [[Wait and see what happens->page0006]].
 
@@ -99,3 +101,31 @@ Should you warn your friends about the strange force? If you do, they may be afr
 
 Do you [[warn Larsen and Sneed->page0013]] or do you [[keep calling for help->page0009]].
 
+::page0006
+Once again you brush against a firm surface. This time it's the floor of the cavern. In fact, you have touched down on the mossy bank of an underground stream. You drink from the cool,
+clear water, then step out of the cavern into this strange world.
+
+The only illumination is a dim red-orange glow that seems to come from the ground. The air is so clear that you can see shadowy, curving hills and valleys stretching out in all  directions, even above you.
+
+Why do you feel so good? It must be because you are so light—you could hardly weigh more than ten or fifteen kilos. You spring to your feet Every movement is easy. You jump—almost ten meters high—and float gently to the ground.
+
+Then you realise that you are not alone. Only a few meters away is an odd creature. As big as you are, it seems to be some kind of bird-yet much more than a bird. Under a crown of soft golden feathers are enormous blue-green eyes, so vivid and intense that they seem to be not only a means of vision, but also a means of power.
+
+There is something terrifying about that face, but also something angelic, something that draws you to it In fact, you feel as if you are being hypnotised by those eyes—eyes of an angel bird!
+
+Do you [[run from the strange creature->page0015]] or [[hold your ground and face it->page0010]]?
+
+::page0007
+
+::page0008
+You run as fast as you can, hoping that once the mother sees her baby is safe, she will not pursue you.
+
+You dart into a cavern. It's darker and hotter than the pleasant spot where you found the fledgling. Is it the same passageway you came through?
+
+Still running, you look back over your shoulder to see if the mother bird is following. At that moment you find yourself falling, or rather rising, toward the earth's surface—drawn up into what must be the same shaft that forms the Bottomless Crevasse!
+
+Soon you stop rising and start falling. Then you rise a shorter distance, stop, and begin to fall again. You feel like a yo-yo, bouncing up and down, up and down, until you finally come to rest at the centre of gravity, the point where you will neither rise nor fall. Like a cork thrown in the ocean, you are doomed to drift forever.
+
+''The End''
+
+<<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
