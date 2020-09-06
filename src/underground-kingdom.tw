@@ -22,7 +22,7 @@ I've changed a few things from the original, just to make it a little more relev
 
 All the work of converting a PDF into this playable game is mine. I didn't write the story, but I've brought it to you like this. I hope you enjoy it.
 
-Would you like to [[view the introduction->intro0000]] or [[play the game->warn0000]]?
+Would you like to [[view the introduction->intro0000]], [[play the game->warn0000]], or [[see the version information->BuildInfo]]?
 
 ::intro0000
 !!WARNING!!!!
