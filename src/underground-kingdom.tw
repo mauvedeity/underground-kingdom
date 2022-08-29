@@ -1,20 +1,20 @@
-::StoryData
+:: StoryData
 {
     "ifid": "21410192-6F95-4CFA-82AE-023B8A23B593",
     "format": "SugarCube",
     "format-version": "2.30.0"
 }
 
-::StoryTitle
+:: StoryTitle
 Underground Kingdom
 
-::StoryInit
+:: StoryInit
 
-::StoryCaption
+::  StoryCaption
 ''Turn: ''<<print turns()>><br>
 ''Passage: ''<<print passage()>><br>
 
-::Start
+:: Start
 !!Introduction to "Underground Kingdom"
 This is an adventure book by Edward Packard, published by Bantam Books in the "Choose Your Own Adventure" series. I think it's number 18. I found this content on a website claiming that the content is in the public domain, so on that basis I've taken it and converted it into this playable HTML game. I found it as a decent PDF, so I've just done some text recovery and had at it.
 
@@ -24,13 +24,13 @@ All the work of converting a PDF into this playable game is mine. I didn't write
 
 Would you like to [[view the introduction->intro0000]], [[play the game->warn0000]], or [[see the version information->BuildInfo]]?
 
-::intro0000
+:: intro0000
 !!WARNING!!!!
 Do not read this book straight through from beginning to end! These pages contain many different adventures you can have as you try to reach the Underground Kingdom. From time to time as you read along, you will be asked to make a choice. Your choice may lead to success or to disaster! The adventures you have will be the result of the decisions you make. After you make your choice, follow the instructions to see what happens to you next.
 
 [[Play the game->warn0000]]
 
-::warn0000
+:: warn0000
 !!SPECIAL WARNING!!!!
 The Underground Kingdom is not easy to reach. Many readers never get there. Others never return.
 
@@ -42,7 +42,7 @@ Good luck!
 
 Would you like to [[read Professor Bruckner's theory->theory0]] or [[skip it->page0001]]?
 
-::theory0
+:: theory0
 !!Professor Bruckner's Theory
 The discovery of the Bottomless Crevasse in Greenland by Dr. Nera Vivaldi supports my theory that the Earth is not solid, as has been thought, but that it is hollow. The Bottomless Crevasse is probably the sole route from the Earth's surface to a vast "Underground Kingdom". The only other possible link would be an underground river, flowing in alternating directions in response to the tides, but this seems unlikely.
 
@@ -54,7 +54,7 @@ In all other respects the Black Sun would not be dangerous to any creatures in t
 
 [[Begin your adventure->page0001]].
 
-::page0001
+:: page0001
 You are standing on the Toan Glacier in northern Greenland, staring down into the black void of the crevasse. You shiver as you wonder whether you were lucky or unlucky to be invited on this expedition.
 
 Standing next to you are Gunnar Larsen of the National Research Institute and Dr. James Sneed, a geologist. A small black box containing a signal transmitter is suspended over the crevasse by two long poles. The transmitter is wired to a console a few meters away in the ice. Dr. Sneed turns a dial as he monitors the display screen.
@@ -77,7 +77,7 @@ These thoughts race through your head in a split second.
 
 Do you [[try to land on the ledge->page0005]] or [[avoid it->page0003]]?
 
-::page0003
+:: page0003
 Your consciousness slips away as you fall faster down, down, down.
 
 The next thing you know, you're floating in air. In the soft, reddish light you can see that you are in a cavern, drifting toward the ceiling-or is it the floor? In a flash you realise what has happened-you've fallen to a point where gravity above you is almost equal to gravity beneath you!
@@ -86,7 +86,7 @@ You brush against a firm surface-a wall that feels like clay. You cling to it fo
 
 [[Wait and see what happens->page0006]].
 
-::page0005
+:: page0005
 Your whole body is racked with pain as you crash onto the ledge. You're shaken and bruised but still alive! A snowbank cushioned your fall.
 
 "HELP!" you cry.
@@ -99,7 +99,7 @@ Should you warn your friends about the strange force? If you do, they may be afr
 
 Do you [[warn Larsen and Sneed->page0013]] or do you [[keep calling for help->page0009]].
 
-::page0006
+:: page0006
 Once again you brush against a firm surface. This time it's the floor of the cavern. In fact, you have touched down on the mossy bank of an underground stream. You drink from the cool,
 clear water, then step out of the cavern into this strange world.
 
@@ -113,9 +113,9 @@ There is something terrifying about that face, but also something angelic, somet
 
 Do you [[run from the strange creature->page0015]] or [[hold your ground and face it->page0010]]?
 
-::page0007
+:: page0007
 
-::page0008
+:: page0008
 You run as fast as you can, hoping that once the mother sees her baby is safe, she will not pursue you.
 
 You dart into a cavern. It's darker and hotter than the pleasant spot where you found the fledgling. Is it the same passageway you came through?
@@ -127,7 +127,7 @@ Soon you stop rising and start falling. Then you rise a shorter distance, stop, 
 ''The End''
 <<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
 
-::page0009
+:: page0009
 "Hurry!" you yell.
 
 A moment later you see Dr. Sneed's reassuring face on one side of the opening above you. Larsen peers over the other side. "Don't worry", he calls.
@@ -143,7 +143,7 @@ Now your chances look slim. A search helicopter might fly over. But will it land
 
 [[Now what->page0012]]?
 
-::page0010
+:: page0010
 You stand there and watch as the strange creature walks slowly toward you. Then you see the large, blue-white pieces of broken shell. This angel bird is only a fledgling, just hatched!
 
 Losing your fear, you walk up and stroke the creature gently. It cocks its head to the side and touches you with one of its wings. At that moment it seems almost human.
@@ -152,7 +152,7 @@ But suddenly you hear a loud whirring sound. Hovering above you is another angel
 
 Do you [[run->page0008]], [[grab the fledgling and use it as a shield->page0014]] or [[dive onto the ground and cover your face with your arms->page0011]]?
 
-::page0011
+:: page0011
 You dive to the ground and shield your face with your arms, hoping the angel bird will leave you unharmed.
 
 Nothing happens; the angel bird must have taken her young one away. What's more, you begin to have the feeling that you are completely safe. Slowly you get to your feet. Standing nearby are three more of the large creatures. One of them effortlessly leaves the ground, glides through the air, and lands beside you. You have a strong urge to climb on its back.
@@ -163,12 +163,12 @@ Without thinking more about it, you leap up, and because there's very little gra
 
 [[Look around you->page0016]].
 
-::page0012
+:: page0012
 You look along the ledge. It curves up toward the surface, but it also becomes narrower. You try to gauge how close to the surface you could get without losing your footing. By cutting a couple of handholds in the ice with your pocket knife, you could make it to the top, if you don't lose your grip.
 
 Do you [[attempt the climb->page0018]] or [[wait for rescue->page0020]]?
 
-::page0013
+:: page0013
 "Get back from the edge!" you yell. "I didn't fall, I was pulled in!"
 
 For a few moments you hear nothing; then Sneed yells, "Thanks for warning us. There may be some force here we don't understand. But don't worry, we're rigging a brace so we can pull you up without getting too close." 
@@ -188,7 +188,7 @@ After what you've been through, you're not about to argue with them. The three o
 ''The End''
 <<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
 
-::page0014
+:: page0014
 
 You lunge for the baby bird, hoping that you can use it as a shield.
 
@@ -199,7 +199,7 @@ Strangely, the mother bird did not harm you. Instead, you feel that you have bee
 
 [[Look around you->page0010]].
 
-::page0015
+:: page0015
 You run from the angel bird-up a hill that gets steeper and steeper. In the light gravity of the underworld you can run faster than a deer, even up this mountain. Ten, fifteen, twenty meters at a bound! You feel even lighter than you did before. You try to leap a meter in the air, but you find yourself floating. There is no way you can get down. You are entombed between the ground above and the ground below.
 
 You close your eyes. Then, instead of feeling warm, you feel cold; instead of feeling light, you feel heavy. Instead of floating, you're lying on a hard, cold surface. Opening your eyes, you see ice walls rising above you.
@@ -212,7 +212,7 @@ No one answers. Larsen and Sneed have probably given you up for lost.
 
 [[Look around you->page0012]].
 
-::page0016
+:: page0016
 The angel bird glides through the canyons and corridors beneath the earth. It increases its speed, and you hold tight as it swoops through long, curving passageways. It's the most exciting ride of your life, and would certainly be the scariest if you didn't feel that you've never been safer.
 
 Then, ahead of you, is a tunnel that flares out into a broad new world. An endless landscape stretches before you. It is bathed in soft, reddish light, as if the sun had just set everywhere around you!
@@ -223,9 +223,9 @@ So this is the Underground Kingdom-strange, vast, and very beautiful. What peopl
 
 Do you [[set out to explore the Underground Kingdom->page0019]] or do you [[decide to concentrate on getting back home safely->page0022]]?
 
-::page0017
+:: page0017
 
-::page0018
+:: page0018
 You inch your way along the edge, keeping your body flat against the wall of the crevasse. You should be able to make it, as long as you don't panic. You try not to look down.
 
 After almost an hour of slow progress, you're able to raise a hand over the rim. But you still
@@ -237,7 +237,7 @@ Stiff and shaky, you manage to stand and stare at the bleak world around you. Th
 
 [[Wonder what to do next->page0021]].
 
-::page0019
+:: page0019
 You know how you feel: the risks don't matter. You want to explore the Underground Kingdom!
 
 The angel bird seems to understand. Steeply banking, it swoops down along the great river and glides gently onto a mossy plain. Nearby is a grove of tall trees. Short stumpy branches with clusters of multicoloured leaves thrust out from their trunks. They look almost like hands  holding bunches of flowers.
@@ -246,7 +246,7 @@ You slide to the ground, and at once the angel bird rises in the air. As it glid
 
 [[Continue exploring->page0048]].
 
-::page0020
+:: page0020
 You decide not to risk the treacherous climb to the surface. Surely help is on the way. You huddle on the icy ledge, stamping your feet and clapping your hands, trying to keep warm. You feel your body temperature dropping. You've got to stay awake until a search party arrives.
 
 The hours pass slowly. The sun dips below the horizon, but there is still light in the sky. Straining, you think you hear something... Pocka pocka pocka pocka pocka... overhead. A helicopter is hovering over the crevasse! For a moment you're blinded by a searchlight. The helicopter drops to just a few yards above you. The crew lowers a harness. Eagerly you grab it and buckle it around you.
@@ -264,14 +264,14 @@ You soon feel life seeping back into your body. "Thanks for pulling me out!"
 ''The End''
 <<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
 
-::page0021
+:: page0021
 There is no shelter from the relentless wind and no sign of Larsen or Sneed. It's getting hard to breathe. You soon begin to feel the dull aches, stiffness, and sick feeling you've read about-the dread symptoms of hypothermia; you are freezing to death. Maybe a search helicopter will arrive any moment. Maybe in a few hours. Maybe never.
 
 You are very tired. You desperately need rest.
 
 Do you [[huddle in your parka and try to conserve your strength->page0032]] or do you [[push through and keep on walking->page0025]]?
 
-::page0022
+:: page0022
 Your strongest desire now is to be home again. You cling tightly to the angel bird. As if it knows what you're thinking, it rises in the air, banks steeply, and then, accelerating, hurtles into a corridor within the ground. You nestle into its thick downy coat as it streaks through the darkness. All the while you feel completely safe, and in time you sleep.
 
 When you awake, it is much colder. A chill wind bites against your body. The brightness of the world around you is not the warm red light of the Underground Kingdom, but the cold white light of the Arctic. The barren landscape, pocketed with ice and snow, is a familiar scene, as is the rude village of shacks and tin-roofed buildings nearby. You're in Greenland! The village is the coastal settlement from which your party began its trek across the ice fields to the Bottomless Crevasse.
@@ -281,7 +281,7 @@ As you trudge across the frozen slope to the village, you think about the angel 
 ''The End''
 <<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
 
-::page0024
+:: page0024
 "There's no chance of that", Professor Bruckner's assistant tells you. "An aerial photograph taken a few weeks ago showed that the glacier has moved, sealing the crevasse with 6,000 feet of solid ice."
 
 You hang up the phone and stand by the window, thinking about the world that lies beneath the Earth's surface. What is it like? What creatures might live there? What happened to Professor Bruckner? Did he find Larsen and Sneed? Is Dr. Vivaldi still alive? Now, of course, you'll never know.
@@ -289,7 +289,7 @@ You hang up the phone and stand by the window, thinking about the world that lie
 ''The End''
 <<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
 
-::page0025
+:: page0025
 You force yourself to keep walking. If you wander too far from the crevasse, a search team
 might miss you, so you walk in a large square: fifty paces north, then fifty east, then fifty south, and then fifty west, to close the square. You go around and around. Your legs feel like lead. Your eyes are half shut. You hardly notice when the weak arctic sun reappears ... the sun... you can't think... dizzy... you can't stand...
 
@@ -303,7 +303,7 @@ By morning your head has cleared. It was a terrible ordeal, but at least you sur
 
 [[Go home->page0026]].
 
-::page0026
+:: page0026
 Three months have passed. You return home late one afternoon to find a man you don't recognise waiting at your front door.
 
 "I'm Professor Bruckner. From the National Research Institute in London." He shakes your hand warmly.
@@ -323,14 +323,14 @@ friends may still be alive?"
 
 Do you [[agree to go on the new expedition->page0028]] or [[turn down another trip into danger->page0030]]?
 
-::page0028
+:: page0028
 "Professor Bruckner, count me in!"
 
 "Good", he says. "This time we'll be far better equipped. NPL has put two helicopters at my disposal. One of them will transport our party of scientists and technicians. The other will carry the Vertacraft, a rocket-propelled capsule specifically designed for this mission."
 
 [[Prepare for your trip->page0029]].
 
-::page0029
+:: page0029
 Three weeks later you find yourself staring once again at the Bottomless Crevasse.
 
 "It looks narrower than when I was here before", you remark.
@@ -353,7 +353,7 @@ The professor smiles. "It means that the interior of the earth-beginning about 1
 
 [[Think about that->page0075]].
 
-::page0030
+:: page0030
 "No, thank you, Professor", you say. "I've seen enough. I never want to get near the Bottomless Crevasse again."
 
 Bruckner shrugs. "I understand", he says as he holds out his hand.
@@ -367,7 +367,7 @@ The next morning you phone Professor Bruckner's office at the National Physical 
 
 [[Listen carefully->page0024]].
 
-::page0032
+:: page0032
 You huddle in your parka, but the cruel wind penetrates your body. You feel yourself growing numb. You try to stand up, but your legs won't move. You feel as if you are drifting through time and space. Then you feel nothing at all.
 
 The search and rescue team eventually found your lifeless body. They were never able to locate Larsen and Sneed. A few days later a memorial service was held for the brave people who lost their lives exploring the Bottomless Crevasse. Everyone spoke very highly of you.
@@ -375,7 +375,7 @@ The search and rescue team eventually found your lifeless body. They were never 
 ''The End''
 <<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
 
-::page0033
+:: page0033
 "All right", says Bruckner, "if no one will volunteer, I'll go alone." The rest of you help position the Vertacraft over the crevasse and wish him well as he snaps the hatch shut and releases the craft into free-fall.
 
 Frank Crouter, Bruckner's assistant, glances at his watch. "If he survives, we'll get a signal back within ten minutes", he says.
@@ -389,7 +389,7 @@ Weary and sad, your party trudges back across the ice fields. The moving glacier
 ''The End''
 <<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
 
-::page0035
+:: page0035
 You know that your chances of surviving the expedition are slim. Even if you safely descend into the Bottomless Crevasse, there's no assurance that the Vertacraft will be able to get you out again. Still, it's your only chance to find your lost friends and to explore a new world.
 
 You grit your teeth and climb aboard. The Professor climbs in beside you.
@@ -410,7 +410,7 @@ Has he gone mad? You notice a red button on the control panel. Next to it is a s
 
 [[Stare at the red button->page0037]].
 
-::page0036
+:: page0036
 You and Dr. Vivaldi cross the Great River and start your trek to the Shining Mountains. Along the way your guide, Mopur, brings back mountain game, breadbush, and tanga.
 
 The air seems lighter and brighter than in the valley of the Great River. Never have you felt so happy as you do right now-hiking through the Shining Mountains.
@@ -419,12 +419,12 @@ But your Archpod guide grumbles and frets. He blinks and rubs his eyes.
 
 [[Keep walking->page0092]].
 
-::page0037
+:: page0037
 Thanks to the dual control system, it looks as if you have a chance to escape this madness. Still, you can't be sure it will save you...
 
 Do you [[push the red Emergency Reverse button->page0089]] or [[try to talk to Dr. Bruckner again->page0038]]?
 
-::page0038
+:: page0038
 "We're going too fast! Can't we slow down?" you call.
 
 "No. We have hundreds of miles to go. We've got to get through the earth's mantle fast, or we'll be baked to death." Bruckner's voice is cool and reassuring. Maybe he knows what he's doing.
@@ -436,12 +436,12 @@ Suddenly everything is still. The Vertacraft has come to rest. Looking through a
 
 [[Look around you->page0043]].
 
-::page0039
+:: page0039
 You could probably climb a nearby tree and hide among the clusters of giant leaves. But is it wise to run like a frightened animal? Maybe things will go better for you if you bravely face the inhabitants of this world.
 
 Do you [[face the creatures->page0042]] or [[hide in a nearby cluster-leaf tree->page0046]].
 
-::page0040
+:: page0040
 The scene around you reminds you of a photographic negative. All the shades and colours seem reversed. The ground is greyish pink clay with white outcroppings. In the distance you can see areas that glow like beds of hot coals. Nearby is a forest of trees with green trunks and white leaves. The trees are short; yet their branches, taking advantage of the light gravity, spread out for hundreds of feet in all directions.
 
 You climb a small hill to get a better view. Wherever you look, the land curves upward, as if you were standing in the bottom of an enormous bowl. The sky is covered with what looks like reddish yellow clouds.
@@ -452,7 +452,7 @@ You turn sharply at the sound of chattering. Coming up the ravine are more than 
 
 [[Watch the creatures carefully->page0039]].
 
-::page0042
+:: page0042
 You step forward to meet the strange procession. The underworld creatures form a circle around you, cackling and gesturing to each other.
 
 You smile and hold out your arms. "Hello" you begin, but the creatures raise their nets and close in on you. One of them barks an order. They motion for you to follow them. You don't have much choice. Despite their small size, they move rapidly through the thick woods.  Occasionally they freeze, and you hear them whispering: "Kota, ib saben Kota."
@@ -463,7 +463,7 @@ Soon you reach a village of igloo-shaped structures that look as if they're made
 
 [[Follow the creature into the hut->page0044]].
 
-::page0043
+:: page0043
 You bury the Professor's body near the Vertacraft, and say a prayer. You feel sad and afraid of setting forth alone in a strange world. But there is no choice. You must search for food and shelter.
 
 First, you've got to get out of this crater. There is a tunnel nearby. Peering inside, you see that it leads straight down. Suddenly you realise that it was through this tunnel that the Vertacraft travelled; you're looking through the other end of the Bottomless Crevasse. The tunnel doesn't lead straight down, but straight up�to the surface of the earth!
@@ -476,7 +476,7 @@ You stand there a minute, wondering why the pull of gravity here isn't as strong
 
 [[Look around you->page0040]].
 
-::page0044
+:: page0044
 The interior of the agon, as it seems to be called, is lit by glowing stones circling the inner wall. In the centre is a small fountain. Clear water bubbles forth and flows along a silver trough before disappearing underground. The floor is soft and spongy, like a thick bed of moss.
 
 The leader steps forward. "Ket," he says, pointing to himself. "Ket Raka." Pointing to the
@@ -497,7 +497,7 @@ Ket and Akim gesture as if you should obey. But Tor shakes his head, warning you
 
 Do you [[follow the blue-furred Raka->page0048]] or do you [[refuse to go->page0050]]?
 
-::page0046
+:: page0046
 You hide in the cluster-leaf tree. The strange creatures pass by except for one straggler, who
 stops to stretch. For a moment he looks right at you. "Kota zaark!" he cries, then turns and runs after the others.
 
@@ -512,7 +512,7 @@ You have only a few seconds to live, so it hardly matters.
 ''The End''
 <<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
 
-::page0048
+:: page0048
 Hoping for the best, you follow the blue-furred Raka to the centre of the village. As you walk along the narrow footpaths, other Rakas emerge from their agons and stare at you curiously.
 
 When you reach the central agon the blue-furred Raka lets out a long, low hooting noise, which is answered from within. Inside an old white-headed Raka sits near the central fountain. A large black disc hangs from his neck. For a long time he stares at you. Finally he rises and steps closer. "So, you are what my hunters found. My name is Arton. I am the High Raka of the village of Rakmara."
@@ -537,7 +537,7 @@ You hold your head in your hands. Poor Dr. Vivaldi! And now the Kingdom faces th
 
 [[Think about this->page0051]].
 
-::page0050
+:: page0050
 You shake your head and stand your ground. The blue-furred Raka glares at you and strides from the agon. He returns a few moments later with two other Rakas, each holding ropes and a net.
 
 "I won't be taken captive like some animal!" you shout.
@@ -550,7 +550,7 @@ Helped by the light gravity, you quickly reach a grove of cluster-leaf trees, an
 
 [[Rest up->page0053]].
 
-::page0051
+:: page0051
 "Yes, bad times are upon us," Arton continues. "But we shall protect ourselves. We have learned to mix powders and call up the fire of the earth in a great blast of noise and heat"
 
 "You mean bombs?"
@@ -570,7 +570,7 @@ You shrink back from the choice. The High Raka's voice grows stern and cold "If 
 
 Do you [[tell the High Raka that you will go with his warriors->page0052]] or do you [[tell him that you won't take part in a war->page0056]].
 
-::page0052
+:: page0052
 "I'll go with your warriors," you answer.
 
 "Very well," says Alton. "You will stay with Tomo. Vivaldi taught him English, and he will tell you what you need to know."
@@ -585,12 +585,12 @@ You realise that you have not slept since you arrived in the Underground Kingdom
 
 [[Sleep->page0054]].
 
-::page0053
+:: page0053
 Once you've caught your breath, you walk along the river bank and soon reach a crude wooden dock. Two Rakas are guarding their hunting boat, a long flat-bottomed shell fashioned from duster-leaf wood. Nearby is a smaller boat, one you could paddle yourself. You just might be able to untie it, push off, and get across the river before the guards catch you.
 
 Do you [[try to take the small boat and make a break for the other side->page0057]] or do you [[try to bluff the guards into thinking you have permission to use it->page0058]].
 
-::page0054
+:: page0054
 When you wake, Tomo gives you a bright pink tanga. You hadn't realised how little you've eaten, and you wolf it down. Smiling, Tomo replaces it with another.
 
 "Someday we will go hunting," says Tomo.
@@ -611,7 +611,7 @@ The Raka hunters are clumsy at rowing, and the boat is so heavy that a few small
 
 Do you [[dive overboard and swim for shore->page0061]] or do you [[wait in the war boat->page0062]]?
 
-::page0056
+:: page0056
 "I won't have anything to do with your brakpa," you say. "I am not an enemy of you or of the Archpods."
 
 "Ig krig zaark!" the High Raka says angrily.
@@ -622,7 +622,7 @@ You lie low on the raft, afraid of landing until you are well past Rakmara. Now 
 
 [[Ponder your fate->page0063]].
 
-::page0057
+:: page0057
 You quickly reach the boat, but you can't untie the rope! Instantly the Rakas are upon you. Uttering angry cries, they fling their nets over you. One of them blindfolds you. Then they march you along a winding, bumpy path.
 
 "Where are you taking me?" you ask. But the Rakas ignore you, muttering angrily in their language.
@@ -635,7 +635,7 @@ Finally the Rakas stop. Exhausted, you crumple to the ground. All is silent, and
 
 [[Sleep->page0060]].
 
-::page0058
+:: page0058
 
 You think fast. Luckily, you remember the command that the blue-furred Raka gave. You walk up to the guards, smiling. You point in the direction you came from, then to yourself, and then to one of the boats.
 
@@ -647,9 +647,9 @@ As the current takes you around a bend, you notice Archpod settlements on the op
 
 Do you [[head for the shore->page0066]] or [[head back across the river->page0065]].
 
-::page0059
+:: page0059
 
-::page0060
+:: page0060
 Hours later you awake, stiff and shaking from the cold. Cautiously you pull off your blindfold. Your captors are gone. All around you is dark brown clay. There are no trees, no water, and no shelter from the cold wind that blows across the vast, empty plain. So this is your intended fate�you will be left to die of exposure under the Black Sun.
 
 It's a long trek across the desert of the Underground Kingdom, but if you can only reach some trees, you may be able to find a warm place to rest. Somehow you know that you'll make it, if
@@ -660,7 +660,7 @@ Do you?
 ''The End''
 <<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
 
-::page0061
+:: page0061
 In a flash you're over the side and swimming for shore. The Rakas yell at you. One of them tries to hit you with an oar while the others stroke furiously, trying to turn their unwilling craft around.
 
 Swimming hard, you hear screams behind you. The war boat has overturned! The brakpa have gone to the bottom, and the Rakas are struggling to save their lives and right the boat. Using all your strength, you swim in to shore and start running for the groves of duster-leaf trees.
@@ -670,7 +670,7 @@ wings stretching twenty feet across! You stare into its great blue-green eyes an
 
 [[Hang on->page0022]]!
 
-::page0062
+:: page0062
 Swimming to shore looks too risky. You sit quietly in the boat, hoping for the best. As the war boat nears the middle of the river, the current gets stronger. The Raka warriors can hardly row against it As the Rakas struggle with their oars, the boat is swept farther and farther downstream.
 
 You wonder where the current will take you, until you hear a sound up ahead that quickly grows into a roar.
@@ -680,7 +680,7 @@ You wonder where the current will take you, until you hear a sound up ahead that
 ''The End''
 <<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
 
-::page0063
+:: page0063
 Your raft floats on past marshy banks and yellow clay islands. The river grows narrow as it flows through a deep canyon. Rock cliffs rise up on both sides. You hold on, hoping to reach a place where you can land.
 
 Never have you experienced as dark a night as this. It's as if the river were flowing through a tunnel somewhere in the depths of the earth.
@@ -694,7 +694,7 @@ So, the Great River must be an underground link between the earth's seas. The ti
 ''The End''
 <<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
 
-::page0065
+:: page0065
 You try to row back to the Rakmara shore, but the current is now so swift that you find yourself being carried downstream. Desperately you try to paddle against it It's no use. And there's bad trouble up ahead�foaming, white rapids! You hang on for your life, but your raft smashes into a rock with a terrific thunk. One end tilts straight up, dumping you into the wild, swirling waters. You try to grab the raft, but you can't reach it. You start swimming toward shore, but you can't make any headway.
 
 You're not a quitter. You'll go down trying.
@@ -702,7 +702,7 @@ You're not a quitter. You'll go down trying.
 ''The End''
 <<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
 
-::page0066
+:: page0066
 Trying to act unafraid, you row straight in to shore, hop out of the boat, and step forward to meet the Archpods. "Hello. I come as a friend!" you call out. But their only response is to take you prisoner and march you back to their village.
 
 You soon find that the Archpods live in agons similar to those of the Rakas. Your captors lead you into the largest one, where you expect to be presented to their chief. Instead, a woman calls your name. It's Dr. Vivaldi!
@@ -718,7 +718,7 @@ Dr. Vivaldi tells you how she barely survived her fall through the Bottomless Cr
 
 [[Ponder->page0068]]...
 
-::page0068
+:: page0068
 
 "What can we do?" you ask.
 
@@ -730,7 +730,7 @@ Dr. Vivaldi replies, "Think carefully before you make such a decision."
 
 Do you [[face the Grand Akpar with Dr. Vivaldi->page0070]] or do you [[escape while you have a chance->page0100]].
 
-::page0069
+:: page0069
 You're glad that your friends are still alive, and you hurry to meet them. A few minutes later you are exchanging stories of your adventures in the Underground Kingdom. But Larsen and Sneed do not seem happy.
 
 "Is anything wrong?" Dr. Vivaldi finally asks them.
@@ -748,7 +748,7 @@ You're glad that your friends are still alive, and you hurry to meet them. A few
 ''The End''
 <<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
 
-::page0070
+:: page0070
 "I'll face the Grand Akpar with you."
 
 "That's a brave choice," says Dr. Vivaldi, "but it also would have taken courage to escape." She smiles. "Sometimes there's nothing to do but to be brave!" As she speaks three Archpod guards walk into the agon. They motion for you to follow them, but when Dr. Vivaldi tries to join you, they block her way.
@@ -765,13 +765,13 @@ You stand silently, trying to think of what to say.
 
 Do you [[try to play along with him->page0073]] or do [[you refuse to co-operate->page00104]]?
 
-::page0072
+:: page0072
 Suddenly, you feel a presence. Looking around, you see pairs of bright blue lights staring at you. Then you see brown bristly faces, iron fangs, and long curled claws. Kota beasts! The last sounds you hear are their unearthly shrieks of triumph.
 
 ''The End''
 <<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
 
-::page0073
+:: page0073
 You try to think fast. You don't want to be responsible for killing the Rakas, but you have to sound helpful. "Land your fleet during the sleeping tide," you say. "That way you will surprise them."
 
 "Thank you." The Grand Akpar smiles. "But, if your advice fails, you will be taken to the Mouth of Fire."
@@ -786,7 +786,7 @@ That sleeping tide, you lie on your bed, dreaming of home. An explosion startles
 
 [[Stare at the guards->page0084]].
 
-::page0074
+:: page0074
 Your head aches. You feel as if you've been run over by a steamroller-but a cool hand is
 pressed against your forehead.
 
@@ -806,7 +806,7 @@ You look up at Dr. Vivaldi. Her face shows she, too, is in pain. "A broken arm,"
 ''The End''
 <<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
 
-::page0075
+:: page0075
 "But what does that have to do with the black hole?" you ask Bruckner.
 
 The professor pauses to fill his pipe. "As I explained in my published theory, a tiny black hole lodged in the centre of the earth more than a billion years ago. It pulled the interior of the earth�everything except for the crust and mantle�into itself, leaving the earth hollowed out like a Halloween pumpkin. That is what the gravity readings tell us."
@@ -819,7 +819,7 @@ Professor Bruckner lights his pipe, then says, "I did not expect to undertake th
 
 [[Think fast->page0077]].
 
-::page0076
+:: page0076
 When you tell Dr. Vivaldi of the advice you gave the Grand Akpar, she shakes your hand. "I would have said the same thing. If our destiny is to die at the hands of the Archpods, it will not be your fault."
 
 Now three tides have passed. You and Dr. Vivaldi are still waiting for the news that will seal your fate.
@@ -830,7 +830,7 @@ It must be midway through the second sleeping tide when the guards awaken you. A
 
 [[Smile at both of them->page0078]].
 
-::page0077
+:: page0077
 One after another, the team members shake their heads.
 
 Finally Bruckner turns to you. "Well?"
@@ -839,7 +839,7 @@ You hesitate. You don't want to risk your life. But this could be the only chanc
 
 Do you [[decide to go with him->page0035]] or [[decide not to risk it->page0033]].
 
-::page0078
+:: page0078
 From then on you and Dr. Vivaldi are treated like honoured guests. The Archpods bring you baskets heaped with tanga, and cakes made from golden grain. They show you their mineral pools where you swim in the swirling, bubbly water. Later you lie in the warmth of the glowing rocks, then cool off under the Black Sun.
 
 A few tides later the Grand Akpar pays you a visit. "Would you like to stay longer and explore the Underground Kingdom?" he asks. "We shall lend you three hunters to guide you. Or, if you wish, you may return to the Nether World."
@@ -849,7 +849,7 @@ though the risks are great."
 
 Do you [[say you'd like to explore the Underground Kingdom->page0081]] or [[confess that you'd like to return home->page0082]].
 
-::page0081
+:: page0081
 "This may be the only chance earth people have to explore the Underground Kingdom," you say, "and I don't want to pass it up."
 
 "I'm glad to hear you say that" Dr. Vivaldi unfolds a map of the Underground Kingdom. "I made this map from what the Rakas and Archpods have told me. Although the Underground Kingdom has an area sixty percent as large as the surface of the earth, only a very small portion is cool enough to be habitable. Most of the land is too hot to set foot on. It is the molten red rock, you know, that provides the reddish glow that lights this dim world. If it were not for the tremendous cooling effect of the Black Sun, life could not exist here."
@@ -858,7 +858,7 @@ Sometimes Dr. Vivaldi gets too scientific for you. "Where do you think we should
 
 [[Look at the map->page0083]].
 
-::page0082
+:: page0082
 "If there's a chance of making it," you say, I'd like to try to get home."
 
 "Then we must hurry," says Dr. Vivaldi. "Akpar, there is not much you can do but lead us to the crater where we arrived."
@@ -875,7 +875,7 @@ Dr. Vivaldi gives instructions to the Archpods, who then use their ropes to susp
 
 [[Try to hang on->page0074]].
 
-::page0083
+:: page0083
 "There are three areas that fascinate me equally," she answers, "so I'll let you choose among them. To the west are the Weightless Peaks, where you become lighter and lighter, the higher you climb. To the south are the Hills of Diamonds. The Archpods are afraid to go there. They say it is too close to what they call the Lair of the Ghost Wolf."
 
 "What lies across the Great River?" you ask. "Beyond Rakmara."
@@ -884,7 +884,7 @@ Dr. Vivaldi gives instructions to the Archpods, who then use their ropes to susp
 
 Do you choose [[the Weightless Peaks->page0085]], [[the Hills of Diamonds->page0088]], or [[the Shining Mountains->page0036]]?
 
-::page0084
+:: page0084
 "You betrayed us," says the head guard. "The Rakas threw bombs into our boats. Nearly all of them were lost. Many of our hunters were killed." He turns to the others behind him. "Bind them and take them to the Mouth of Fire."
 
 You cry out for mercy, but you know there will be none.
@@ -892,7 +892,7 @@ You cry out for mercy, but you know there will be none.
 ''The End''
 <<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
 
-::page0085
+:: page0085
 
 A few tides later you and Dr. Vivaldi set out for the Weightless Peaks. With you is a young Archpod named Katu, chosen because she speaks your language.
 
@@ -904,7 +904,7 @@ After hiking for fourteen tides, you begin to climb-first gentle hills, then ste
 
 [[Continue climbing->page0087]].
 
-::page0087
+:: page0087
 "Now you can see," says Dr. Vivaldi, "how on the Weightless Peaks the higher you go, the lighter you'll get Look!" She points to the highest peak of all. Its top is a spire jutting into the sky. A thin plume of smoke rises from the top.
 
 "It must be a volcano," you say.
@@ -919,7 +919,7 @@ You realise that if you're so light, the huge boulders around you can't weigh ve
 
 [[Look around you->page0106]].
 
-::page0088
+:: page0088
 Certainly the Hills of Diamonds must be an amazing sight. And, if you ever ''do'' make it back to the surface, it wouldn't hurt to have a few dozen diamonds in your pockets�you could be rich for life!
 
 The Archpods provide you and Dr. Vivaldi with their largest boat for the trip down the Great River to the diamond hills.
@@ -932,7 +932,7 @@ Finally you reach cooler ground. Ahead of you is a dazzling vision: dozens of li
 
 [[Head toward the hills->page0091]].
 
-::page0089
+:: page0089
 You push the Emergency-Reverse button. Instantly you are pressed to your seat, almost crushed by the forces as the retro-rockets fire. The artificial weight squeezes the air out of your lungs. Then, slowly, the pressure eases. For a moment you're completely weightless. Your heart is pounding as you check the depth meter. The Vertacraft is rising!
 
 "You fool. What have you done?" Bruckner sounds wilder than ever.
@@ -952,7 +952,7 @@ Suddenly the darkness is replaced by blinding sunlight. The Vertacraft has reach
 ''The End''
 <<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
 
-::page0091
+:: page0091
 "Look at all those diamonds," you say. "I'm surprised the Archpods haven't already taken them."
 
 "Villa tarem, zaark!" One of the Archpods is screaming. Several of them point to the north. "Tarem Agax!"
@@ -969,7 +969,7 @@ She shakes her head, seemingly as confused as you are. "It must be the Ghost Wol
 
 Do you [[insist on continuing->page0094]] or [[ask to turn back->page0097]].
 
-::page0092
+:: page0092
 "I think I know why the Archpods and Rakas avoid this beautiful land," says Dr. Vivaldi. "They are conditioned to the dim red light of the Great River valley. The broad daylight here bothers Mopur as much as it would bother us to live in semi-darkness."
 
 "Why is it so bright�?"
@@ -1002,7 +1002,7 @@ She nods and motions you to follow.
 
 [[Follow her->page0098]].
 
-::page0094
+:: page0094
 "Let's get to those diamonds," you cry. And you run toward the points of sparkling white light.
 
 At the same time you begin choking on thick sulphurous fumes. Behind you, thunder rumbles from the ground!
@@ -1017,14 +1017,14 @@ Gasping, you stumble up the hill and collapse in a mound of diamonds. Dr. Vivald
 
 [[Look around you carefully->page0095]].
 
-::page0095
+:: page0095
 "It looks like we're stuck here with all these millions of diamonds," you say.
 
 "Maybe not," replies Dr. Vivaldi. "The eruptions are quite localised. The gases are rising, but I think we can make it across the deadly strip of clay�it's less than a hundred feet, I'd guess. There's only one way to do it - take a deep breath and run as fast as you can. Don't breathe until you absolutely have to. Are you willing to try?"
 
 Do you [[decide to run for it->page0101]] or do you [[decide running for it isn't a good idea->page0102]].
 
-::page0097
+:: page0097
 "I don't believe the Archpods are running from nothing," you say. "Let's get out of here!"
 
 "OK!" Dr. Vivaldi starts back across the field of white clay, and you are right behind her.
@@ -1035,7 +1035,7 @@ You see Dr. Vivaldi crawling on her hands and knees, trying to work her way from
 
 [[Faint->page0103]]...
 
-::page0098
+:: page0098
 "We mustn't waste time," says Dr. Vivaldi. "The Bottomless Crevasse closes a bit more every day."
 
 Led by the Archpod guide, you begin the long trek back to the Great River.
@@ -1048,12 +1048,12 @@ Dr. Vivaldi stares through her mini-binoculars. "No doubt about it," she says, "
 
 [[Watch them approach->page0069]].
 
-::page0100
+:: page0100
 At the change of tide, Dr. Vivaldi leaves for her interview with the Grand Akpar. Only one Raka is left to guard you. You hand him the gold bracelet. Taking it, he smiles broadly. You hurry past him, but another guard is standing outside the agon. You wheel past him and run for it. The surprised Archpod yells; you soon hear others chasing you. But in a few moments you reach the shelter of the cluster-leaf groves, and as you go deeper into the woods, you are relieved that you no longer hear the Archpods behind you. It's strange, though, that they didn't follow you into the woods.
 
 [[Keep going->page0072]].
 
-::page0101
+:: page0101
 "Let's run for it!" you shout.
 
 Dr. Vivaldi scans the bubbling fields of clay. "I think I know the best direction to run, so I'll go first, and you follow." You can just barely hear her voice. "Remember to hold your breath, and don't forget to-" Her voice is cut off by more thunder as she races across the white clay.
@@ -1064,7 +1064,7 @@ No more time to think! You take a deep breath and run!
 
 [[Run after Dr. Vivaldi->page0108]].
 
-::page0102
+:: page0102
 "I'm worried we won't make it," you say. "Maybe the eruptions will end soon, if we just wait here awhile."
 
 "Maybe so," Dr. Vivaldi observes without looking at you. "And maybe it will get worse."
@@ -1076,7 +1076,7 @@ It's strange. Diamonds are the hardest substance in the world; yet, if they are 
 ''The End''
 <<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
 
-::page0103
+:: page0103
 You are lying on a hammock woven of fine clima vines. You feel flushed and feverish, yet happy: you're alive! Dr. Vivaldi is beside you. She brushes a cool, wet cloth across your forehead.
 
 "Where are we?" you ask. "How did we get out of there? Did you see the Ghost Wolf?"
@@ -1090,7 +1090,7 @@ You are lying on a hammock woven of fine clima vines. You feel flushed and fever
 ''The End''
 <<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
 
-::page0104
+:: page0104
 "I won't help you fight the Rakas," you tell the Grand Akpar. "War is a terrible thing. Your villages will be destroyed and your people will be killed. Our wars have always brought grief."
 
 The Grand Akpar is silent for a time. "Then it would be like that here," he finally says. "But how can we avoid war? If we do nothing, the Rakas will destroy us."
@@ -1109,7 +1109,7 @@ There is not much you can say, and you would hardly have time anyway, for the gu
 
 [[Go with the guards->page0076]].
 
-::page0106
+:: page0106
 It's an avalanche all right, but the boulders are rolling up the mountain! Panicked, you run toward Katu. The boulders are coming right at you. At near zero gravity they're being pulled toward the Black Sun.
 
 "You've got to run down!" Dr. Vivaldi shouts.
@@ -1121,7 +1121,7 @@ You've read that a black hole might somehow be an entrance to another universe. 
 ''The End''
 <<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
 
-::page0108
+:: page0108
 
 You made it!
 
