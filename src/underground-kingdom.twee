@@ -125,7 +125,8 @@ Still running, you look back over your shoulder to see if the mother bird is fol
 Soon you stop rising and start falling. Then you rise a shorter distance, stop, and begin to fall again. You feel like a yo-yo, bouncing up and down, up and down, until you finally come to rest at the centre of gravity, the point where you will neither rise nor fall. Like a cork thrown in the ocean, you are doomed to drift forever.
 
 ''The End''
-<<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
+
+<<link "Restart Game">><<run Engine.restart()>><</link>>.
 
 :: page0009
 "Hurry!" you yell.
@@ -186,7 +187,7 @@ Your heart skips a beat as you're yanked off the ledge. You dangle for a moment;
 After what you've been through, you're not about to argue with them. The three of you pack up and begin the long trek back across the glacier. You're happy to be alive, but you know that you'll always regret that you never reached the Underground Kingdom.
 
 ''The End''
-<<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
+<<link "Restart Game">><<run Engine.restart()>><</link>>.
 
 :: page0014
 
@@ -262,7 +263,7 @@ You soon feel life seeping back into your body. "Thanks for pulling me out!"
 "Nothing could get me back here", you say.
 
 ''The End''
-<<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
+<<link "Restart Game">><<run Engine.restart()>><</link>>.
 
 :: page0021
 There is no shelter from the relentless wind and no sign of Larsen or Sneed. It's getting hard to breathe. You soon begin to feel the dull aches, stiffness, and sick feeling you've read about-the dread symptoms of hypothermia; you are freezing to death. Maybe a search helicopter will arrive any moment. Maybe in a few hours. Maybe never.
@@ -279,7 +280,7 @@ When you awake, it is much colder. A chill wind bites against your body. The bri
 As you trudge across the frozen slope to the village, you think about the angel bird and the Underground Kingdom, and you think how much more there must be in the universe, and even on our own planet, than we can ever imagine.
 
 ''The End''
-<<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
+<<link "Restart Game">><<run Engine.restart()>><</link>>.
 
 :: page0024
 "There's no chance of that", Professor Bruckner's assistant tells you. "An aerial photograph taken a few weeks ago showed that the glacier has moved, sealing the crevasse with 6,000 feet of solid ice."
@@ -287,7 +288,7 @@ As you trudge across the frozen slope to the village, you think about the angel 
 You hang up the phone and stand by the window, thinking about the world that lies beneath the Earth's surface. What is it like? What creatures might live there? What happened to Professor Bruckner? Did he find Larsen and Sneed? Is Dr. Vivaldi still alive? Now, of course, you'll never know.
 
 ''The End''
-<<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
+<<link "Restart Game">><<run Engine.restart()>><</link>>.
 
 :: page0025
 You force yourself to keep walking. If you wander too far from the crevasse, a search team
@@ -373,7 +374,7 @@ You huddle in your parka, but the cruel wind penetrates your body. You feel your
 The search and rescue team eventually found your lifeless body. They were never able to locate Larsen and Sneed. A few days later a memorial service was held for the brave people who lost their lives exploring the Bottomless Crevasse. Everyone spoke very highly of you.
 
 ''The End''
-<<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
+<<link "Restart Game">><<run Engine.restart()>><</link>>.
 
 :: page0033
 "All right", says Bruckner, "if no one will volunteer, I'll go alone." The rest of you help position the Vertacraft over the crevasse and wish him well as he snaps the hatch shut and releases the craft into free-fall.
@@ -387,7 +388,7 @@ You all wait anxiously, watching the clock, watching the crevasse. Ten minutes g
 Weary and sad, your party trudges back across the ice fields. The moving glacier is rapidly closing the crevasse. There won't be another chance.
 
 ''The End''
-<<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
+<<link "Restart Game">><<run Engine.restart()>><</link>>.
 
 :: page0035
 You know that your chances of surviving the expedition are slim. Even if you safely descend into the Bottomless Crevasse, there's no assurance that the Vertacraft will be able to get you out again. Still, it's your only chance to find your lost friends and to explore a new world.
@@ -510,7 +511,7 @@ Now the moaning comes from behind you. Turning, you see another pair of blue lig
 You have only a few seconds to live, so it hardly matters.
 
 ''The End''
-<<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
+<<link "Restart Game">><<run Engine.restart()>><</link>>.
 
 :: page0048
 Hoping for the best, you follow the blue-furred Raka to the centre of the village. As you walk along the narrow footpaths, other Rakas emerge from their agons and stare at you curiously.
@@ -658,7 +659,7 @@ you have the will.
 Do you?
 
 ''The End''
-<<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
+<<link "Restart Game">><<run Engine.restart()>><</link>>.
 
 :: page0061
 In a flash you're over the side and swimming for shore. The Rakas yell at you. One of them tries to hit you with an oar while the others stroke furiously, trying to turn their unwilling craft around.
@@ -678,7 +679,7 @@ You wonder where the current will take you, until you hear a sound up ahead that
 "Ig riba!" the Rakas shout. "Ig zaark!" They begin to unload the heavy brakpa. Frantically you help, but at the sight of the boiling white rapids ahead, you lose heart. Moments later the boat smashes into the rocks, and you and the Raka warriors are swept away by the raging torrent.
 
 ''The End''
-<<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
+<<link "Restart Game">><<run Engine.restart()>><</link>>.
 
 :: page0063
 Your raft floats on past marshy banks and yellow clay islands. The river grows narrow as it flows through a deep canyon. Rock cliffs rise up on both sides. You hold on, hoping to reach a place where you can land.
@@ -692,7 +693,7 @@ Stars? There aren't any stars in the Underground Kingdom. You're not on the rive
 So, the Great River must be an underground link between the earth's seas. The tides were with you, and carried you through the earth's mantle and crust to the surface. There's land nearby. And you notice a faint glow on the horizon. Soon the sun will be rising, not the cold Black Sun of the Underground Kingdom, but your own warm, bright, life-giving sun!
 
 ''The End''
-<<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
+<<link "Restart Game">><<run Engine.restart()>><</link>>.
 
 :: page0065
 You try to row back to the Rakmara shore, but the current is now so swift that you find yourself being carried downstream. Desperately you try to paddle against it It's no use. And there's bad trouble up ahead�foaming, white rapids! You hang on for your life, but your raft smashes into a rock with a terrific thunk. One end tilts straight up, dumping you into the wild, swirling waters. You try to grab the raft, but you can't reach it. You start swimming toward shore, but you can't make any headway.
@@ -700,7 +701,7 @@ You try to row back to the Rakmara shore, but the current is now so swift that y
 You're not a quitter. You'll go down trying.
 
 ''The End''
-<<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
+<<link "Restart Game">><<run Engine.restart()>><</link>>.
 
 :: page0066
 Trying to act unafraid, you row straight in to shore, hop out of the boat, and step forward to meet the Archpods. "Hello. I come as a friend!" you call out. But their only response is to take you prisoner and march you back to their village.
@@ -746,7 +747,7 @@ You're glad that your friends are still alive, and you hurry to meet them. A few
 "Right," you answer.
 
 ''The End''
-<<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
+<<link "Restart Game">><<run Engine.restart()>><</link>>.
 
 :: page0070
 "I'll face the Grand Akpar with you."
@@ -769,7 +770,7 @@ Do you [[try to play along with him->page0073]] or do [[you refuse to co-operate
 Suddenly, you feel a presence. Looking around, you see pairs of bright blue lights staring at you. Then you see brown bristly faces, iron fangs, and long curled claws. Kota beasts! The last sounds you hear are their unearthly shrieks of triumph.
 
 ''The End''
-<<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
+<<link "Restart Game">><<run Engine.restart()>><</link>>.
 
 :: page0073
 You try to think fast. You don't want to be responsible for killing the Rakas, but you have to sound helpful. "Land your fleet during the sleeping tide," you say. "That way you will surprise them."
@@ -804,7 +805,7 @@ You look up at Dr. Vivaldi. Her face shows she, too, is in pain. "A broken arm,"
 "I'm glad we had the chance," you say. "I wouldn't have missed it for the world."
 
 ''The End''
-<<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
+<<link "Restart Game">><<run Engine.restart()>><</link>>.
 
 :: page0075
 "But what does that have to do with the black hole?" you ask Bruckner.
@@ -890,7 +891,7 @@ Do you choose [[the Weightless Peaks->page0085]], [[the Hills of Diamonds->page0
 You cry out for mercy, but you know there will be none.
 
 ''The End''
-<<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
+<<link "Restart Game">><<run Engine.restart()>><</link>>.
 
 :: page0085
 
@@ -950,7 +951,7 @@ Suddenly the darkness is replaced by blinding sunlight. The Vertacraft has reach
 "I'm afraid not, my foolish young friend", Bruckner replies in a cold, dead tone. "It's a command procedure. There's no override. We're headed into outer space. Within a few hours we'll be frozen solid."
 
 ''The End''
-<<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
+<<link "Restart Game">><<run Engine.restart()>><</link>>.
 
 :: page0091
 "Look at all those diamonds," you say. "I'm surprised the Archpods haven't already taken them."
@@ -1074,7 +1075,7 @@ The two of you sit, waiting. Soon a breeze begins to blow. A minute later you ar
 It's strange. Diamonds are the hardest substance in the world; yet, if they are several meters deep and you lie down on them, they make a soft bed. And so the end comes easily for you.
 
 ''The End''
-<<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
+<<link "Restart Game">><<run Engine.restart()>><</link>>.
 
 :: page0103
 You are lying on a hammock woven of fine clima vines. You feel flushed and feverish, yet happy: you're alive! Dr. Vivaldi is beside you. She brushes a cool, wet cloth across your forehead.
@@ -1088,7 +1089,7 @@ You are lying on a hammock woven of fine clima vines. You feel flushed and fever
 "That's good," she replies, "because we still have a whole new world to explore!"
 
 ''The End''
-<<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
+<<link "Restart Game">><<run Engine.restart()>><</link>>.
 
 :: page0104
 "I won't help you fight the Rakas," you tell the Grand Akpar. "War is a terrible thing. Your villages will be destroyed and your people will be killed. Our wars have always brought grief."
@@ -1119,7 +1120,7 @@ But the boulders have cut off your escape. The only thing you can do is run up t
 You've read that a black hole might somehow be an entrance to another universe. If only that were possible! It's your only chance once you reach the Black Sun. A chance in a million maybe, but still a chance...
 
 ''The End''
-<<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
+<<link "Restart Game">><<run Engine.restart()>><</link>>.
 
 :: page0108
 
@@ -1130,4 +1131,4 @@ Across the fields of white clay and safely back to the land of the Archpods.
 And, if you remembered to fill your pockets with diamonds before you ran across the field of white clay, you're very rich!
 
 ''The End''
-<<click "Would you like to play again?">><<script>>state.restart()<</script>><</click>>
+<<link "Restart Game">><<run Engine.restart()>><</link>>.
